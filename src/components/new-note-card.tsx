@@ -3,7 +3,12 @@ import { X } from "lucide-react";
 import { ChangeEvent, FormEvent, useState } from "react";
 import {toast} from 'sonner'
 
-export function NewNote() {
+
+interface NewNoteCardProps{
+  aoCriarNota:(content:string)=>void
+}
+
+export function NewNote({aoCriarNota}:NewNoteCardProps) {
   const [deveMostrarTexto, setDeveMostrarTexto] = useState(true)
   const [content, setContent] = useState('')
 
@@ -24,7 +29,12 @@ export function NewNote() {
   //salva a nota
   function salvaNota(event: FormEvent){
     event.preventDefault() //para nao ser redirecionado para outra pagina quando enviar o formulário
-    console.log(content)
+    
+    aoCriarNota(content)
+
+    setContent('')
+    setDeveMostrarTexto(true)
+
     toast.success('Nota criada com sucesso!')
   }
 
@@ -71,6 +81,7 @@ export function NewNote() {
                 autoFocus
                 className="text-sm leading-6 text-slate-400 bg-transparent resize-none flex-1 outline-none"
                 onChange={mostrarOpcoes}
+                value={content}
               />
             )}
           </div>
