@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido juntamente a RocketSeat no evento NLW Expert. O mesmo tem por objetivo a criação de um sistema em React para criação de notas.
 
+Você pode visualizar o resultado clicando [aqui](https://alinebeatrizw.github.io/NLW-EXPERT/)!
+
 ---
 
 
@@ -41,3 +43,6 @@ $ npm run dev
 <h1 align="center">
     <img  src="/public/resultado.png" />
 </h1>
+
+---
+⌨️ com ❤️ por [Aline Wille](https://github.com/alinebeatrizw) 😊
