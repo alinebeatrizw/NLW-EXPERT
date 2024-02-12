@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [SpeechRecognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
 - [Vite](https://vitejs.dev/)
 - [Radix UI](https://www.radix-ui.com/)
-- [Sonenr](https://sonner.emilkowal.ski/)
+- [Sonner](https://sonner.emilkowal.ski/)
 
 
 
