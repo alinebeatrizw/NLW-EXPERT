@@ -45,4 +45,4 @@ $ npm run dev
 </h1>
 
 ---
-⌨️ com ❤️ por [Aline Wille](https://github.com/alinebeatrizw) 😊
+Feito com ❤️ por [Aline Wille](https://github.com/alinebeatrizw) 😊
