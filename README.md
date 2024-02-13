@@ -36,7 +36,7 @@ $ npm install
 # Execute a aplicação
 $ npm run dev
 
-# O servidor inciará na porta:5173- acesse <http://localhost:5173/>
+# O servidor iniciará na porta:5173- acesse <http://localhost:5173/>
 ```
 
 ## 
