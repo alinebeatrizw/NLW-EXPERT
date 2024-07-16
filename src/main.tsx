@@ -4,9 +4,10 @@ import {App} from './App'
 import { Toaster } from 'sonner'
 import './index.css'
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
-    <Toaster richColors/>
-  </React.StrictMode>,
-)
+    <BrowserRouter basename={"/NLW-Journey-2/"}>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
